@@ -1,3 +1,5 @@
+import styles from "./Navbar.module.css";
+
 function Navbar() {
   const scrollTo = (id) => {
     document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
@@ -5,11 +7,15 @@ function Navbar() {
 
   return (
     <nav>
-      <div>
-        <a href="#" onClick={(e) => { e.preventDefault(); scrollTo("hero"); }}>
+      <div className={styles.inner}>
+        <a
+          href="#"
+          className={styles.logo}
+          onClick={(e) => { e.preventDefault(); scrollTo("hero"); }}
+        >
           SQ
         </a>
-        <div>
+        <div className={styles.links}>
           <button onClick={() => scrollTo("hero")}>Home</button>
           <button onClick={() => scrollTo("about")}>Sobre</button>
           <button onClick={() => scrollTo("projects")}>Projetos</button>

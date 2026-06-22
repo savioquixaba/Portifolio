@@ -171,7 +171,7 @@ Depois do esqueleto pronto, estilizar tudo.
 - [x] 10.2. Importar global.css no `main.jsx`
 
 ### Fase 11: CSS - Navbar
-- [ ] 11.1. Criar `Navbar.module.css` (fixa, transparente, hamburger)
+- [x] 11.1. Criar `Navbar.module.css` (fixa, transparente, hamburger)
 - [ ] 11.2. Scroll suave nos links e destaque ativo
 
 ### Fase 12: CSS - Hero

@@ -15,7 +15,7 @@
   --accent: #00ff88;
   --accent-hover: #00cc6a;
   --border: #2a2a2a;
-  --font: system-ui, -apple-system, sans-serif;
+  --font: "Inter", system-ui, -apple-system, sans-serif;
 }
 
 html {

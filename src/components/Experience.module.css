@@ -1,0 +1,122 @@
+.section {
+  padding: 5rem 1.5rem;
+}
+
+.content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.intro {
+  text-align: center;
+  color: var(--text-muted);
+  margin-bottom: 3rem;
+  font-size: 1.0625rem;
+  max-width: 600px;
+  margin-inline: auto;
+}
+
+/* Timeline */
+.timeline {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Item: flex com 3 colunas */
+.item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  padding-bottom: 2rem;
+}
+
+.item:last-child {
+  padding-bottom: 0;
+}
+
+/* Coluna 1: Data */
+.date {
+  width: 6.5rem;
+  text-align: right;
+  font-size: 0.85rem;
+  color: var(--accent);
+  font-weight: 700;
+  flex-shrink: 0;
+  margin-top: 16px;
+  line-height: 1.4;
+}
+
+/* Coluna 2: Separador */
+.separator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: stretch;
+  position: relative;
+  flex-shrink: 0;
+  width: 20px;
+  min-height: 50px;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--accent);
+  flex-shrink: 0;
+  z-index: 1;
+  margin-top: 18px;
+}
+
+.line {
+  position: absolute;
+  top: 30px;
+  bottom: 0;
+  width: 2px;
+  background: var(--border);
+}
+
+/* Coluna 3: Cartão */
+.card {
+  flex: 1;
+  min-width: 0;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.role {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.35rem;
+  line-height: 1.4;
+}
+
+.company {
+  font-weight: 500;
+  color: var(--accent);
+}
+
+.description {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .item {
+    gap: 0.75rem;
+  }
+
+  .date {
+    width: 5rem;
+    font-size: 0.75rem;
+  }
+}

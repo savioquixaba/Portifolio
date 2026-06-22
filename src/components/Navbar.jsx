@@ -18,6 +18,7 @@ function Navbar() {
         <div className={styles.links}>
           <button onClick={() => scrollTo("hero")}>Home</button>
           <button onClick={() => scrollTo("about")}>Sobre</button>
+          <button onClick={() => scrollTo("experience")}>Exp.</button>
           <button onClick={() => scrollTo("projects")}>Projetos</button>
           <button onClick={() => scrollTo("contact")}>Contato</button>
         </div>

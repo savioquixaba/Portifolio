@@ -167,8 +167,8 @@ Criar só a estrutura JSX de cada componente, sem estilização. O foco é monta
 Depois do esqueleto pronto, estilizar tudo.
 
 ### Fase 10: CSS Global
-- [ ] 10.1. Criar `src/styles/global.css` com variáveis, reset, fundo escuro
-- [ ] 10.2. Importar global.css no `main.jsx`
+- [x] 10.1. Criar `src/styles/global.css` com variáveis, reset, fundo escuro
+- [x] 10.2. Importar global.css no `main.jsx`
 
 ### Fase 11: CSS - Navbar
 - [ ] 11.1. Criar `Navbar.module.css` (fixa, transparente, hamburger)

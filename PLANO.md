@@ -121,71 +121,85 @@ Depois que eu criar a estrutura, você vai precisar editar:
 - [x] 1.2. Criar projeto Vite + React
 - [x] 1.3. Instalar dependências
 - [x] 1.4. Verificar que `npm run dev` funciona
+- [x] 1.5. Configurar Git e subir primeiro commit no GitHub
 
-### Fase 2: Estrutura e Estilos
+---
+
+### ⚡ Primeira Passada: Esqueleto HTML/JSX (sem CSS)
+
+Criar só a estrutura JSX de cada componente, sem estilização. O foco é montar o HTML do site.
+
+### Fase 2: Estrutura
 - [x] 2.1. Criar pasta `src/styles/` e `src/components/`
-- [ ] 2.2. Criar `src/styles/global.css` com variáveis CSS (cores, fontes)
-- [ ] 2.3. Adicionar reset CSS básico no global.css
-- [ ] 2.4. Adicionar estilos de scroll suave e fundo escuro
 
-### Fase 3: Navbar
-- [ ] 3.1. Criar componente `Navbar.jsx` (estrutura HTML)
-- [ ] 3.2. Criar `Navbar.module.css` (posicionamento fixo, fundo semi-transparente)
-- [ ] 3.3. Implementar links de navegação (Home, Sobre, Projetos, Contato)
-- [ ] 3.4. Implementar scroll suave ao clicar nos links
-- [ ] 3.5. Destacar link ativo conforme a seção visível
-- [ ] 3.6. Criar menu hamburger para mobile
-- [ ] 3.7. Integrar Navbar no `App.jsx`
+### Fase 3: JSX - Navbar
+- [x] 3.1. Criar `Navbar.jsx` com links (Home, Sobre, Projetos, Contato)
+- [x] 3.2. Integrar Navbar no `App.jsx`
 
-### Fase 4: Hero (Home)
-- [ ] 4.1. Criar componente `Hero.jsx` (estrutura)
-- [ ] 4.2. Criar `Hero.module.css` (nome grande, subtítulo, botão)
-- [ ] 4.3. Adicionar animação de entrada (fade-in)
-- [ ] 4.4. Botão CTA "Ver Projetos" com scroll
-- [ ] 4.5. Integrar Hero no `App.jsx`
+### Fase 4: JSX - Hero
+- [x] 4.1. Criar `Hero.jsx` com nome, subtítulo "Desenvolvedor Back-end Java", botão CTA
+- [x] 4.2. Integrar Hero no `App.jsx`
 
-### Fase 5: Sobre
-- [ ] 5.1. Criar componente `About.jsx`
-- [ ] 5.2. Criar `About.module.css`
-- [ ] 5.3. Adicionar placeholder para foto (círculo)
-- [ ] 5.4. Adicionar texto descritivo placeholder
-- [ ] 5.5. Adicionar ícones de tecnologias
-- [ ] 5.6. Integrar About no `App.jsx`
+### Fase 5: JSX - Sobre
+- [x] 5.1. Criar `About.jsx` com foto placeholder, texto, ícones de tecnologias
+- [x] 5.2. Integrar About no `App.jsx`
 
-### Fase 6: Projetos
-- [ ] 6.1. Criar componente `Projects.jsx`
-- [ ] 6.2. Criar `Projects.module.css`
-- [ ] 6.3. Criar grid de cards responsivo (3 colunas → 1)
-- [ ] 6.4. Adicionar 3 projetos placeholder com imagem, título e descrição
-- [ ] 6.5. Adicionar tags de tecnologia nos cards
-- [ ] 6.6. Adicionar links "Código" e "Demo" (placeholder)
-- [ ] 6.7. Integrar Projects no `App.jsx`
+### Fase 6: JSX - Projetos
+- [x] 6.1. Criar `Projects.jsx` com grid de 3 cards placeholder
+- [x] 6.2. Cada card: imagem, título, descrição, tags, links
+- [x] 6.3. Integrar Projects no `App.jsx`
 
-### Fase 7: Contato
-- [ ] 7.1. Criar componente `Contact.jsx`
-- [ ] 7.2. Criar `Contact.module.css`
-- [ ] 7.3. Adicionar ícones de GitHub, LinkedIn, Email
-- [ ] 7.4. Adicionar links para suas redes (placeholder)
-- [ ] 7.5. Integrar Contact no `App.jsx`
+### Fase 7: JSX - Contato
+- [x] 7.1. Criar `Contact.jsx` com ícones GitHub, LinkedIn, Email
+- [x] 7.2. Integrar Contact no `App.jsx`
 
-### Fase 8: Footer
-- [ ] 8.1. Criar componente `Footer.jsx`
-- [ ] 8.2. Criar `Footer.module.css`
-- [ ] 8.3. Adicionar copyright com nome placeholder
-- [ ] 8.4. Integrar Footer no `App.jsx`
+### Fase 8: JSX - Footer
+- [x] 8.1. Criar `Footer.jsx` com "© 2026 Sávio Quixaba"
+- [x] 8.2. Integrar Footer no `App.jsx`
 
-### Fase 9: Finalização
-- [ ] 9.1. Revisar responsividade em mobile/tablet/desktop
-- [ ] 9.2. Ajustar animações e detalhes finais
-- [ ] 9.3. Testar completo com `npm run dev`
+### Fase 9: Git
+- [ ] 9.1. Commit: "feat: adiciona esqueleto JSX de todas as seções"
+
+---
+
+### 🎨 Segunda Passada: CSS + Estilização
+
+Depois do esqueleto pronto, estilizar tudo.
+
+### Fase 10: CSS Global
+- [ ] 10.1. Criar `src/styles/global.css` com variáveis, reset, fundo escuro
+- [ ] 10.2. Importar global.css no `main.jsx`
+
+### Fase 11: CSS - Navbar
+- [ ] 11.1. Criar `Navbar.module.css` (fixa, transparente, hamburger)
+- [ ] 11.2. Scroll suave nos links e destaque ativo
+
+### Fase 12: CSS - Hero
+- [ ] 12.1. Criar `Hero.module.css` (nome grande, botão, animação fade-in)
+
+### Fase 13: CSS - Sobre
+- [ ] 13.1. Criar `About.module.css` (foto, texto, ícones)
+
+### Fase 14: CSS - Projetos
+- [ ] 14.1. Criar `Projects.module.css` (grid responsivo, cards com hover)
+
+### Fase 15: CSS - Contato
+- [ ] 15.1. Criar `Contact.module.css` (ícones centralizados)
+
+### Fase 16: CSS - Footer
+- [ ] 16.1. Criar `Footer.module.css`
+
+### Fase 17: Finalização
+- [ ] 17.1. Revisar responsividade mobile/tablet/desktop
+- [ ] 17.2. Ajustar animações e detalhes finais
+- [ ] 17.3. Testar completo com `npm run dev`
+- [ ] 17.4. Commit final e tornar repositório público (opcional)
 
 ---
 
 ## Workflow de Git
 
-A cada fase concluída, vou subir as alterações no GitHub:
+A cada fase concluída, subo as alterações no GitHub:
 1. `git add .`
 2. `git commit -m "descrição do que foi feito"`
 3. `git push`
-
-A Fase 1 já foi concluída, então podemos iniciar o repositório e subir como primeiro commit. Depois disso, cada fase nova vira um commit separado.

@@ -9,14 +9,13 @@ function About() {
           <div className={styles.photoContainer}>
             <img
               className={styles.photo}
-              src="https://via.placeholder.com/200"
+              src="/perfil.jpg"
               alt="Foto de perfil"
             />
           </div>
           <div>
             <p className={styles.text}>
-              Desenvolvedor Back-end Java apaixonado por tecnologia e soluções escaláveis.
-              Aqui vai um texto contando sua história, experiência e objetivos profissionais.
+              Desenvolvedor Back-end Java com foco em criar APIs robustas e bem estruturadas. Curioso por natureza, estou sempre buscando entender o funcionamento das tecnologias que uso e aplicar boas práticas, sou bastante ágil e gosto de fazer entregas o mais rápido possível.
             </p>
             <div className={styles.tags}>
               <span className={styles.tag}>Java</span>

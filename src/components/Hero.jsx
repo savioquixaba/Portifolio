@@ -8,7 +8,6 @@ function Hero() {
   return (
     <section id="hero" className={styles.hero}>
       <div className={styles.content}>
-        <p className={styles.greeting}>Olá, eu sou</p>
         <h1 className={styles.name}>Sávio Quixaba</h1>
         <h2 className={styles.subtitle}>Desenvolvedor Back-end Java</h2>
         <p className={styles.description}>

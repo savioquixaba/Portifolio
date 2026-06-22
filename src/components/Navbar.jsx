@@ -13,7 +13,7 @@ function Navbar() {
           className={styles.logo}
           onClick={(e) => { e.preventDefault(); scrollTo("hero"); }}
         >
-          SQ
+          Sávio Quixaba
         </a>
         <div className={styles.links}>
           <button onClick={() => scrollTo("hero")}>Home</button>

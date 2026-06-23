@@ -3,19 +3,19 @@ import styles from "./Projects.module.css";
 function Projects() {
   const projects = [
     {
+      title: "ConsultaRapida",
+      description: "Sistema agregador de consultas a APIs externas. Automatiza chamadas a múltiplos endpoints com autenticação Basic Auth e retorna resposta consolidada com apenas os campos relevantes.",
+      tags: ["Java", "Spring Boot", "React", "TypeScript", "Tailwind CSS", "OpenFeign"],
+      repo: "https://github.com/savioquixaba/ConsultaRapida",
+      image: "/consultarapida.png",
+    },
+    {
       title: "Gymsys Backend",
       description: "Sistema de gestão para academias com cadastro de alunos, treinos e matrículas. API RESTful com autenticação e banco relacional.",
       tags: ["Java", "Spring Boot", "PostgreSQL", "Docker"],
       repo: "https://github.com/savioquixaba/Gymsys-backend",
       demo: "https://www.linkedin.com/feed/update/urn:li:activity:7449916773719556096/",
       image: "https://media.licdn.com/dms/image/v2/D4E1FAQF79C5U0TaHlw/feedshare-document-cover-images_480/B4EZ2NrnvUHQBA-/0/1776198516587?e=2147483647&v=beta&t=k0ZhseD_J60ZRFIDRXe8I30OIaSpThpBwndVcIw8E_I",
-    },
-    {
-      title: "Cadastro de Ninjas",
-      description: "API RESTful para cadastro de ninjas e missões com relacionamento ManyToOne/OneToMany. CRUD completo com Spring Data JPA e Flyway.",
-      tags: ["Java", "Spring Boot", "H2", "Flyway", "JPA"],
-      repo: "https://github.com/savioquixaba/Cadastro_De_Ninjas",
-      image: "/ninja.webp",
     },
     {
       title: "Desafio Itaú Backend",
@@ -25,18 +25,18 @@ function Projects() {
       image: "/itau.png",
     },
     {
-      title: "ConsultaRapida",
-      description: "Sistema agregador de consultas a APIs externas. Automatiza chamadas a múltiplos endpoints com autenticação Basic Auth e retorna resposta consolidada com apenas os campos relevantes.",
-      tags: ["Java", "Spring Boot", "React", "TypeScript", "Tailwind CSS", "OpenFeign"],
-      repo: "https://github.com/savioquixaba/ConsultaRapida",
-      image: "/consultarapida.png",
-    },
-    {
       title: "Sistema de Vendas",
       description: "Sistema CRUD de vendas em C# com Windows Forms e PostgreSQL. Cadastro, listagem, atualização e exclusão de vendas com interface gráfica.",
       tags: ["C#", ".NET", "PostgreSQL", "WinForms"],
       repo: "https://github.com/savioquixaba/Sistema-de-Vendas",
       image: "/vendas.jpg",
+    },
+    {
+      title: "Cadastro de Ninjas",
+      description: "API RESTful para cadastro de ninjas e missões com relacionamento ManyToOne/OneToMany. CRUD completo com Spring Data JPA e Flyway.",
+      tags: ["Java", "Spring Boot", "H2", "Flyway", "JPA"],
+      repo: "https://github.com/savioquixaba/Cadastro_De_Ninjas",
+      image: "/ninja.webp",
     },
   ];
 

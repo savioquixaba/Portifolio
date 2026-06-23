@@ -25,6 +25,13 @@ function Projects() {
       image: "/itau.png",
     },
     {
+      title: "ConsultaRapida",
+      description: "Sistema agregador de consultas a APIs externas. Automatiza chamadas a múltiplos endpoints com autenticação Basic Auth e retorna resposta consolidada com apenas os campos relevantes.",
+      tags: ["Java", "Spring Boot", "React", "TypeScript", "Tailwind CSS", "OpenFeign"],
+      repo: "https://github.com/savioquixaba/ConsultaRapida",
+      image: "/consultarapida.png",
+    },
+    {
       title: "Sistema de Vendas",
       description: "Sistema CRUD de vendas em C# com Windows Forms e PostgreSQL. Cadastro, listagem, atualização e exclusão de vendas com interface gráfica.",
       tags: ["C#", ".NET", "PostgreSQL", "WinForms"],

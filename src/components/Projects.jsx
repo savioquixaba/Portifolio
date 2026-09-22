@@ -3,6 +3,13 @@ import styles from "./Projects.module.css";
 function Projects() {
   const projects = [
     {
+      title: "Bíblia Diária",
+      description: "Projeto cristão, feito com carinho para evangelizar e espalhar a palavra de Deus! Site estático que exibe um versículo diferente por dia, com histórico dos últimos 3 dias, busca por assunto e exportação para Instagram Story (PNG 1080×1920).",
+      tags: ["HTML", "CSS", "JavaScript", "Canvas API"],
+      demo: "https://versiculodiario-pi.vercel.app/#versiculo",
+      image: "/bibliadiaria.svg",
+    },
+    {
       title: "ConsultaRapida",
       description: "Sistema agregador de consultas a APIs externas. Automatiza chamadas a múltiplos endpoints com autenticação Basic Auth e retorna resposta consolidada com apenas os campos relevantes.",
       tags: ["Java", "Spring Boot", "React", "TypeScript", "Tailwind CSS", "OpenFeign"],
@@ -57,7 +64,7 @@ function Projects() {
                   ))}
                 </div>
                 <div className={styles.links}>
-                  <a href={project.repo} target="_blank" rel="noopener noreferrer">Código</a>
+                  {project.repo && <a href={project.repo} target="_blank" rel="noopener noreferrer">Código</a>}
                   {project.demo && <a href={project.demo} target="_blank" rel="noopener noreferrer">Demo</a>}
                 </div>
               </div>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400" viewBox="0 0 800 400">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a0a0a"/>
+      <stop offset="1" stop-color="#1a2b23"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00ff88"/>
+      <stop offset="1" stop-color="#ffd166"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="400" fill="url(#bg)"/>
+  <circle cx="650" cy="80" r="120" fill="#00ff88" opacity="0.08"/>
+  <circle cx="120" cy="340" r="100" fill="#ffd166" opacity="0.08"/>
+  <text x="400" y="120" text-anchor="middle" font-family="Georgia, serif" font-size="72" fill="url(#gold)">✝</text>
+  <text x="400" y="190" text-anchor="middle" font-family="Georgia, serif" font-weight="bold" font-size="56" fill="#f5f0e6">Bíblia Diária</text>
+  <text x="400" y="235" text-anchor="middle" font-family="system-ui, sans-serif" font-size="24" fill="#00ff88" letter-spacing="4">VERSÍCULO DO DIA</text>
+  <text x="400" y="280" text-anchor="middle" font-family="Georgia, serif" font-style="italic" font-size="22" fill="#bbbbbb">“Lâmpada para os meus pés é a tua palavra” — Sl 119:105</text>
+  <rect x="330" y="310" width="140" height="36" rx="18" fill="none" stroke="#00ff88" stroke-width="2"/>
+  <text x="400" y="334" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" fill="#00ff88">HTML • CSS • JS</text>
+</svg>
